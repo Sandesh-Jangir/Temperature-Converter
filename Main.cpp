@@ -2,6 +2,8 @@
 using namespace std;
 
 int main(){
+    float c_to_k(float);
+
     int input;
     cout << "Celcius to Fahrenite/Kelvin Converter" <<endl;
     cout << "Please select any one conversion method via their sno." <<endl;
@@ -11,9 +13,12 @@ int main(){
     // Conditionals
     if (input == 1)
     {
-        cout << "You have choosed to convert Celcius to Kelvin" << endl;
+        float c;
+        cout << "Enter Temperature in Celcius : ";
+        cin >> c;
+        cout << "Temperature in Kelvin is : " << c_to_k(c);
     }
-    if (input == 2)
+    else if (input == 2)
     {
         cout << "You have choosed to convert Celcius to Fahrenite" << endl;
     }
@@ -23,4 +28,9 @@ int main(){
     }
     
     return 0;
+}
+
+float c_to_k(float temp){
+    float result = temp + 273.15;
+    return result;
 }
