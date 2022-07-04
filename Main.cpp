@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
 int main(){
@@ -38,7 +39,7 @@ int main(){
     {
         cout << "Please Enter a Valid sno." << endl;
     }
-    
+    getch();
     return 0;
 }
 
