@@ -7,6 +7,6 @@ It is a C++ program that fetches the temperature and then converts it in the req
 - Finally send a output message that `The Temperature in <requested format> is : <output>`.
 
 ### Functions
-- `float c_to_k(float)` for converting **deg. Celcius** into **deg. Kelvin**
+- `float c_to_k(float)` for converting **deg. Celcius** into **Kelvin**
 - `float c_to_f(float)` for converting **deg. Celcius** into **deg. Fahrenite**
-- `float k_to_f(float)` for converting **deg. Kelvin** into **deg. Fahrenite**
+- `float k_to_f(float)` for converting **Kelvin** into **deg. Fahrenite**
