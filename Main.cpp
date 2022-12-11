@@ -11,7 +11,7 @@ int main(){
     int input;
     cout << "Celcius to Fahrenite/Kelvin Converter" <<endl;
     cout << "Please select any one conversion method via their sno." <<endl;
-    cout << "1. Celcius to Kelvin" <<endl  << "2. Celcius to Fahrenite" <<endl << "3. Kelvin to Fahrenite" <<endl << "4. Kelvin to Celcius" <<endl;
+    cout << "1. Celcius to Kelvin" <<endl  << "2. Celcius to Fahrenite" <<endl << "3. Kelvin to Fahrenite" <<endl << "4. Kelvin to Celcius" <<endl << "5. Fahrenheit to Celsius" <<endl << "6. Fahrenheit to Kelvin" << endl;
     cin >> input;
 
     // Conditionals
